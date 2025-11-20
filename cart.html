@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Your Shopping Cart</h1>
+    <h2 id="cart-total">Total: $0.00</h2>
+    <a href="index.html" class="cart-btn">Back to Store</a>
+</header>
+
+<p id="empty-message" style="display:none; text-align:center;">
+    Your cart is empty
+</p>
+
+<div id="cart-items" class="product-container"></div>
+<button onclick="emptyCart()" class="btn-delete">Empty Cart</button>
+
+<script src="script.js"></script>
+</body>
+</html>
