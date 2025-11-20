@@ -1,4 +1,4 @@
-const API_BASE_URL = "https://assignment3-frontend-g9i6.onrender.com";
+const API_BASE_URL = "https://ecommerceapplication-hbrm.onrender.com";
 
 const API_PRODUCTS = `${API_BASE_URL}/products`;
 const API_CART = `${API_BASE_URL}/cart_items`;
